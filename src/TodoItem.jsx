@@ -1,5 +1,6 @@
 
 export const TodoItem = ({text, onCompleted, deleteTodo}) => {
+  
   return (
     <>
         <li className="tarea-pendiente" id="tareaPendiente">

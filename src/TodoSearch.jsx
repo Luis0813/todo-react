@@ -1,5 +1,8 @@
+import { useContext } from "react"
+import { TodoContext } from "./TodoContext/TodoContext"
 
-export const TodoSearch = ({searchValue,setsearchValue}) => {  
+export const TodoSearch = () => { 
+	const {searchValue, setsearchValue} = useContext(TodoContext) 
   return (
     <>
          <div id="search">

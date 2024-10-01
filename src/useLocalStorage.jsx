@@ -21,7 +21,6 @@ export const useLocalStorage = ( itemName, initialValue) => {
             setLoading(false)
         } catch (error) {
             setError(error)
-          
         }
       },2000);
       

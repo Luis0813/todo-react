@@ -1,0 +1,12 @@
+.primerTodo{
+    background-color: gray;
+    color: white;
+    height: 70px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.primerSpan{
+    font-size: 22px;
+}

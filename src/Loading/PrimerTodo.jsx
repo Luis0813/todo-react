@@ -1,9 +1,9 @@
 import React from 'react'
-
+import '../styles/PrimerTodo.css'
 export const PrimerTodo = () => {
   return (
     <>
-      <div className='primer-todo'>Felicidades no tienes tareas pendientes</div>
-    </>
+    <p className='primerTodo'><span className='primerSpan'>crea tu primer todo😎</span></p>
+     </>
   )
 }
